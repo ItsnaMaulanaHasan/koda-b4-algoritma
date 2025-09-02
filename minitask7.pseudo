@@ -1,0 +1,21 @@
+DECLARE R : DOUBLE
+DECLARE Temp : INTEGER
+DECLARE Luas : FLOAT
+DECLARE Keliling : FLOAT
+CONSTANT Phi1 = 22/7
+CONSTANT Phi2 = 3.14
+
+INPUT R
+
+Temp <- R MOD 7
+
+IF Temp != 0 THEN
+    Luas <- Phi2*R*R
+    Keliling <- 2*Phi2*R
+ELSE
+    Luas <- Phi1*R*R
+    Keliling <- 2*Phi1*R
+ENDIF
+
+OUTPUT "Luas: " + Luas
+OUTPUT "Keliling: " + Keliling
