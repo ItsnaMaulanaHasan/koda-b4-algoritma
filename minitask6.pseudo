@@ -1,11 +1,11 @@
-DECLARE bilangan : INTEGER
-DECLARE hasil : INTEGER
+DECLARE Bilangan : INTEGER
+DECLARE Hasil : INTEGER
 
-INPUT bilangan
+INPUT Bilangan
 
-hasil <- bilangan MOD 2
+Hasil <- Bilangan MOD 2
 
-IF hasil == 0 THEN
+IF Hasil == 0 THEN
     OUTPUT "GENAP"
 ELSE 
     OUTPUT "GANJIL"
