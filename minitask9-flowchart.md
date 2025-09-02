@@ -8,7 +8,7 @@ flowchart TD
     id1((Start))
     id2[/Nilai/]
     id1 --> id2
-    id3{Nilai >= 90 && Nilai <=100}
+    id3{Nilai >= 90 && Nilai <=100 && Nilai < 101}
     id4{Nilai < 90 && Nilai >=75}
     id5{Nilai < 75 && Nilai >=60}
     id6{Nilai < 60 && Nilai >=40}
