@@ -1,0 +1,12 @@
+DECLARE bilangan : INTEGER
+DECLARE hasil : INTEGER
+
+INPUT bilangan
+
+hasil <- bilangan MOD 2
+
+IF hasil == 0 THEN
+    OUTPUT "GENAP"
+ELSE 
+    OUTPUT "GANJIL"
+ENDIF
