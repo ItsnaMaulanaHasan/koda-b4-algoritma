@@ -20,7 +20,7 @@ flowchart TD
     id5 -- False --> id6
     id6 -- False --> id7
     id7 -- False --> id8
-    id8 -- False --> id9[/''Error: Nilai tidak diluar jangkauan''/]
+    id8 -- False --> id9[/''Error: Nilai diluar jangkauan''/]
     id3 -- True --> id10[/''A''/] --> id16
     id4 -- True --> id11[/''B''/] --> id16
     id5 -- True --> id12[/''C''/] --> id16
