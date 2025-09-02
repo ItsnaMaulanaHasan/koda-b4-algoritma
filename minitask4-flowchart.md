@@ -8,9 +8,9 @@ flowchart TD
     id1((Start))
     id2[/bilangan/]
     id1 --> id2
-    id3[bilangan % 2]
+    id3[hasil = bilangan % 2]
     id2 --> id3
-    id4{bilangan % 2 = 0}
+    id4{hasil = 0}
     id3 --> id4
     id5[/''ganjil''/]
     id6[/''genap''/]
