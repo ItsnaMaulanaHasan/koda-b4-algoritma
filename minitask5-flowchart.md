@@ -14,8 +14,8 @@ flowchart TD
     id5[phi=3.14]
     id3 -- True --> id4
     id3 -- False --> id5
-    id6[Luas = phi x r x r]
-    id7[Keliling = 2 x phi x r]
+    id6[Luas = phi * r * r]
+    id7[Keliling = 2 * phi * r]
     id4 & id5 --> id6
     id6 --> id7
     id8[/Luas/]
@@ -24,5 +24,4 @@ flowchart TD
     id8 --> id9
     id10(((Stop)))
     id9 --> id10
-    
 ```
