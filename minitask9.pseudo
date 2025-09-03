@@ -2,17 +2,17 @@ DECLARE Nilai : DOUBLE
 
 INPUT Nilai
 
-IF (Nilai >= 90 && Nilai <= 100) THEN
+IF Nilai >= 90 AND Nilai <= 100 THEN
     OUTPUT "A"
-ELSEIF (Nilai < 90 && Nilai >= 75) THEN
+ELSEIF Nilai < 90 AND Nilai >= 75 THEN
     OUTPUT "B"
-ELSEIF (Nilai < 75 && Nilai >= 60) THEN
+ELSEIF Nilai < 75 AND Nilai >= 60 THEN
     OUTPUT "C"
-ELSEIF (Nilai < 60 && Nilai >= 40) THEN
+ELSEIF Nilai < 60 AND Nilai >= 40 THEN
     OUTPUT "D"
-ELSEIF (Nilai < 40 && Nilai >= 20) THEN
+ELSEIF Nilai < 40 AND Nilai >= 20 THEN
     OUTPUT "E"
-ELSEIF (Nilai < 20 && Nilai >= 0) THEN
+ELSEIF Nilai < 20 AND Nilai >= 0 THEN
     OUTPUT "F"
 ELSE
     OUTPUT "ERROR: Nilai Diluar Jangkauan"
